@@ -8,4 +8,10 @@
     <string name="show_toast_string2">Fuck you motherfucka!</string>
     <string name="toast_string">Fuck you SUKA!</string>
     <string name="eyeball_string">EE BALL STRING</string>
+
+    <string name="title_statusbar">StatusBar</string>
+    <string name="title_statusbar2">StatusBar FUCKER</string>
+    <string name="notify_string">Notify 42</string>
+    <string name="intent_received_string">Got The Intent Fuck</string>
+
 </resources>

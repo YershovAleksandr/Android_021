@@ -94,6 +94,13 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
 
+        if (id == R.id.item3){
+            Intent intent = new Intent(getApplicationContext(), NotificationStatusBarActivity.class);
+
+            startActivity(intent);
+        }
+
+
         return super.onOptionsItemSelected(item);
     }
 

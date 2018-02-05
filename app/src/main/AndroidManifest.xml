@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nam.myapplication">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +23,8 @@
         </activity>
         <activity android:name=".NotificationToastActivity" android:label="@string/title_toast" />
         <activity android:name=".NotificationToastActivity2" android:label="@string/title_toast2" />
+        <activity android:name=".NotificationStatusBarActivity" android:label="@string/title_statusbar" />
+        <activity android:name=".NotificationSubActivity" android:label="@string/title_statusbar2" />
     </application>
 
 </manifest>
