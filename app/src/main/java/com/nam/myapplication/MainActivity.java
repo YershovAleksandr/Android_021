@@ -100,6 +100,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
 
+        if (id == R.id.item4){
+            Intent intent = new Intent(getApplicationContext(), NotificationStatusBarWithCustomViewActivity.class);
+
+            startActivity(intent);
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

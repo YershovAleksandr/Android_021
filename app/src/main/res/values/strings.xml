@@ -14,4 +14,9 @@
     <string name="notify_string">Notify 42</string>
     <string name="intent_received_string">Got The Intent Fuck</string>
 
+    <string name="title_statusbar3">StatusBar CUSTOM</string>
+    <string name="title_statusbar4">StatusBar CUSTOM FUCKER</string>
+
+    <string name="eye_desc_string">EE DESC STRING</string>
+
 </resources>
