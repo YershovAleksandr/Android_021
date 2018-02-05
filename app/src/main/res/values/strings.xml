@@ -2,4 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_toast">Toast</string>
+    <string name="show_toast_string">Fuck you bitch!</string>
 </resources>

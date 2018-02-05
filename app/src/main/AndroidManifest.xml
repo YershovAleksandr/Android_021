@@ -19,6 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NotificationToastActivity" android:label="@string/title_toast" />
     </application>
 
 </manifest>
