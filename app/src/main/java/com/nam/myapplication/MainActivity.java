@@ -83,9 +83,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (id == R.id.item1){
-            //DO
-
             Intent intent = new Intent(getApplicationContext(), NotificationToastActivity.class);
+
+            startActivity(intent);
+        }
+
+        if (id == R.id.item2){
+            Intent intent = new Intent(getApplicationContext(), NotificationToastActivity2.class);
 
             startActivity(intent);
         }

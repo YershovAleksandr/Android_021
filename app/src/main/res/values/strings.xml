@@ -4,4 +4,8 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_toast">Toast</string>
     <string name="show_toast_string">Fuck you bitch!</string>
+    <string name="title_toast2">Custom Toast</string>
+    <string name="show_toast_string2">Fuck you motherfucka!</string>
+    <string name="toast_string">Fuck you SUKA!</string>
+    <string name="eyeball_string">EE BALL STRING</string>
 </resources>

@@ -11,4 +11,9 @@
         android:id="@+id/item1"
         android:orderInCategory="200"
         />
+    <item android:title="Item2"
+        android:id="@+id/item2"
+        android:orderInCategory="300"
+        />
+
 </menu>
