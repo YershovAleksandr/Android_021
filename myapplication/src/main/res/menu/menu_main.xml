@@ -26,5 +26,11 @@
         android:title="@string/action_settings4"
         app:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_settings5"
+        android:orderInCategory="500"
+        android:title="@string/action_settings5"
+        app:showAsAction="never" />
+
 
 </menu>

@@ -8,12 +8,13 @@
     <string name="action_settings2">Broadcast Dynamic</string>
     <string name="action_settings3">Sticky Intent</string>
     <string name="action_settings4">Check Broadcast Intents</string>
+    <string name="action_settings5">Check Activity Intents</string>
 
     <string name="section_format">Hello World from section: %1$d</string>
 
     <string name="broadcast_intent_string">Broadcast Intent</string>
 
-    <string name="android_intent_action_string">com.nam.myapplication.Receiver</string>
+    <string name="android_intent_action_string">android.intent.action</string>
 
     <string name="type_in_intent_action_string">Type in Intent Action</string>
 

@@ -34,6 +34,7 @@
         <activity android:name=".SingleBroadcast2" android:label="Dynamic Broadcast" />
         <activity android:name=".StickyIntentBroadcastReceiverActivity" android:label="Sticky Intent" />
         <activity android:name=".CheckBroadcastIntents" android:label="Check Broadcast Intents" />
+        <activity android:name=".CheckActivityIntents" android:label="Check Activity Intents" />
 
     </application>
 
