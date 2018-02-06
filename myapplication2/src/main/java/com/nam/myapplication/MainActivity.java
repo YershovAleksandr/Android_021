@@ -1,5 +1,6 @@
 package com.nam.myapplication;
 
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -88,6 +89,13 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
+
+        if (id == R.id.action_settings2) {
+            startActivity(new Intent(getApplicationContext(), CompoundBroadcast.class));
+            return true;
+        }
+
+
 
         return super.onOptionsItemSelected(item);
     }
