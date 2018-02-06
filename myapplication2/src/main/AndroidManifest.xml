@@ -50,6 +50,20 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name=".CompoundOrderedBroadcastWithResultReceiver" android:label="Compound Ordered Broadcast with Result Receiver" />
+
+        <receiver android:name=".Receiver32" android:exported="false">
+            <intent-filter android:priority="10">
+                <action android:name="com.nam.myapplication.you_suck"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".Receiver33" android:exported="false">
+            <intent-filter android:priority="1">
+                <action android:name="com.nam.myapplication.you_suck"/>
+            </intent-filter>
+        </receiver>
+
 
     </application>
 

@@ -4,6 +4,7 @@
 
     <string name="action_settings2">Compound Broadcast</string>
     <string name="action_settings3">Compound Ordered Broadcast</string>
+    <string name="action_settings4">Compound Ordered Broadcast With Result</string>
 
     <string name="section_format">Hello World from section: %1$d</string>
 
