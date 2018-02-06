@@ -32,6 +32,7 @@
         </receiver>
 
         <activity android:name=".SingleBroadcast2" android:label="Dynamic Broadcast" />
+        <activity android:name=".StickyIntentBroadcastReceiverActivity" android:label="Sticky Intent" />
 
     </application>
 

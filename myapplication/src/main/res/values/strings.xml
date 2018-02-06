@@ -6,6 +6,7 @@
 
     <string name="action_settings1">Broadcast Static</string>
     <string name="action_settings2">Broadcast Dynamic</string>
+    <string name="action_settings3">Sticky Intent</string>
 
     <string name="section_format">Hello World from section: %1$d</string>
 
