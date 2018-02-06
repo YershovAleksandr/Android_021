@@ -106,6 +106,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        if (id == R.id.action_settings4) {
+            startActivity(new Intent(getApplicationContext(), CheckBroadcastIntents.class));
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }
