@@ -105,6 +105,11 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        if (id == R.id.action_settings5) {
+            startActivity(new Intent(getApplicationContext(), AlarmCreateActivity.class));
+            return true;
+        }
+
 
 
         return super.onOptionsItemSelected(item);

@@ -5,9 +5,15 @@
     <string name="action_settings2">Compound Broadcast</string>
     <string name="action_settings3">Compound Ordered Broadcast</string>
     <string name="action_settings4">Compound Ordered Broadcast With Result</string>
+    <string name="action_settings5">Alarm</string>
 
     <string name="section_format">Hello World from section: %1$d</string>
 
     <string name="broadcast_intent_string">Broadcast Intent</string>
+
+    <string name="set_single_alarm">Set Single Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm</string>
+    <string name="set_inexact_repeating_alarm">Set Inexact Repeating Alarm</string>
+    <string name="cancel_repeating_alarm">Cancel Repeating Alarm</string>
 
 </resources>

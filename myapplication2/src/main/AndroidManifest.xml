@@ -64,6 +64,11 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name=".AlarmCreateActivity" android:label="Alarm Create" />
+
+        <receiver android:name=".AlarmNotificationReceiver" />
+        <receiver android:name=".AlarmLoggerReceiver" />
+
 
     </application>
 
