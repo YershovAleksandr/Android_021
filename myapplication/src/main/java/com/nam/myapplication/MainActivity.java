@@ -84,13 +84,21 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_settings1) {
 
             Intent intent = new Intent(getBaseContext(), SimpleBroadcast.class);
             startActivity(intent);
 
             return true;
         }
+
+        if (id == R.id.action_settings2) {
+
+            startActivity(new Intent(getApplicationContext(), SingleBroadcast2.class));
+
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

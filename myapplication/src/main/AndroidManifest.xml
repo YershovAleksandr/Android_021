@@ -31,6 +31,7 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name=".SingleBroadcast2" android:label="Dynamic Broadcast" />
 
     </application>
 
