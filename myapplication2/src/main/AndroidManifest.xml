@@ -36,6 +36,20 @@
             </intent-filter>
         </receiver>
 
+        <activity android:name=".CompoundOrderedBroadcast" android:label="Compound Ordered Broadcast"/>
+
+        <receiver android:name=".Receiver22" android:exported="false">
+            <intent-filter android:priority="3">
+                <action android:name="com.nam.myapplication.motherfucka"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".Receiver23" android:exported="false">
+            <intent-filter android:priority="3">
+                <action android:name="com.nam.myapplication.motherfucka"/>
+            </intent-filter>
+        </receiver>
+
 
     </application>
 
